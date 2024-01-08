@@ -1,0 +1,27 @@
+GET http://localhost:5000/
+
+###
+
+POST http://localhost:5000/
+Content-Type: application/json
+
+{
+    "name":"Raza",
+    "email":"Raza@gmail.com",
+    "age":22
+}
+
+###
+GET http://localhost:5000/658861571775c08b8e535aad
+
+
+###
+DELETE  http://localhost:5000/658860f64bc0d90f6d363a97
+
+###
+PATCH   http://localhost:5000/658861571775c08b8e535aad
+Content-Type: application/json
+
+{
+    "name":"Raza Abbas"  
+}
